@@ -4,12 +4,10 @@ public class Question01 {
 	private int base;
 	private int height;
 	
-	public Question01(int size) {
+	public void printLadder(int size) {
 		base = size;
 		height = size;
-	}
-	
-	public void printLadder() {
+		
 		for(int line = 1; line <= height; line++) {
 			for(int column = base - line; column > 0; column--) {
 				System.out.print(" ");
