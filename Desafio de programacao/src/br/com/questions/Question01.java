@@ -4,20 +4,23 @@ public class Question01 {
 	private int base;
 	private int height;
 	
-	public void printLadder(int size) {
+	public String printLadder(int size) {
+		String ladder = "";
 		base = size;
 		height = size;
 		
 		for(int line = 1; line <= height; line++) {
 			for(int column = base - line; column > 0; column--) {
-				System.out.print(" ");
+				ladder += " ";
 			}
 			
 			for(int column = 1; column <= line; column++) {
-				System.out.print("*");
+				ladder += "*";
 			}
 			
-			System.out.println();
+			ladder +="\n";
 		}
+		
+		return ladder;
 	}
 }
