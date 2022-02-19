@@ -1,7 +1,17 @@
 package br.com.questions;
 
+/**
+ * Primeira questão do Desafio.
+ * @author Bruno Silva Da Silva
+ *
+ */
 public class Question01 {
 	
+	/**
+	 * Imprime uma escada com os caracteres espaço e *.
+	 * @param size altura e largura da escada.
+	 * @return retorna uma escada em string.
+	 */
 	public static String printLadder(int size) {
 		String ladder = "";
 		
