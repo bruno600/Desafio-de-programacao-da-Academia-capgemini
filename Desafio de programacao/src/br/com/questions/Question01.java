@@ -18,6 +18,7 @@ public class Question01 {
 				ladder += "*";
 			}
 			
+			if(line == height) break;
 			ladder +="\n";
 		}
 		
