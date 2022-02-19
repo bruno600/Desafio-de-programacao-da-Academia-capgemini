@@ -9,7 +9,7 @@ public class Question01 {
 	
 	/**
 	 * Imprime uma escada com os caracteres espaço e *.
-	 * @param size altura e largura da escada.
+	 * @param size inteiro da altura e base da escada.
 	 * @return retorna uma escada em string.
 	 */
 	public static String printLadder(int size) {
