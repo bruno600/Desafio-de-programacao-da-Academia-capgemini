@@ -2,7 +2,18 @@ package br.com.questions;
 
 import java.util.Arrays;
 
+/**
+ * Terceira questão do Desafio.
+ * @author Bruno Silva Da Silva
+ *
+ */
 public class Question03 {
+	
+	/**
+	 * Procura quantos anagramas existe em uma string.
+	 * @param anagram string para ser encontrada a quantidade de anagramas.
+	 * @return retorna um inteiro da quantidade de anagramas encontrados.
+	 */
 	public static int findAnagram(String anagram) {
 		int anagramsFound = 0;
 		
