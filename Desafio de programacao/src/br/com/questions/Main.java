@@ -7,6 +7,8 @@ public class Main {
 		Question01 escada = new Question01();
 		System.out.println(escada.printLadder(6));
 		
+		System.out.println("Questao 2: ");
+		System.out.println(Question02.checkStringLength("Ya3"));
 	}
 
 }
