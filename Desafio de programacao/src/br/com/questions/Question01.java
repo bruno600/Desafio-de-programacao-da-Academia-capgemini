@@ -1,16 +1,12 @@
 package br.com.questions;
 
 public class Question01 {
-	private int base;
-	private int height;
 	
-	public String printLadder(int size) {
+	public static String printLadder(int size) {
 		String ladder = "";
-		base = size;
-		height = size;
 		
-		for(int line = 1; line <= height; line++) {
-			for(int column = base - line; column > 0; column--) {
+		for(int line = 1; line <= size; line++) {
+			for(int column = size - line; column > 0; column--) {
 				ladder += " ";
 			}
 			
@@ -18,7 +14,7 @@ public class Question01 {
 				ladder += "*";
 			}
 			
-			if(line == height) break;
+			if(line == size) break;
 			ladder +="\n";
 		}
 		

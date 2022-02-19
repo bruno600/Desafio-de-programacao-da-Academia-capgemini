@@ -7,15 +7,13 @@ import org.junit.jupiter.api.Test;
 import br.com.questions.Question01;
 
 class Question01Test {
-	Question01 question;
 
 	@Test
 	void testPrintLadder() {
-		question = new Question01();
 		
-		assertEquals("*", question.printLadder(1));
-		assertEquals(" *\n**", question.printLadder(2));
-		assertEquals("  *\n **\n***", question.printLadder(3));
+		assertEquals("*", Question01.printLadder(1));
+		assertEquals(" *\n**", Question01.printLadder(2));
+		assertEquals("  *\n **\n***", Question01.printLadder(3));
 	}
 
 }
