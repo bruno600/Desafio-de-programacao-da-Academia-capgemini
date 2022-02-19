@@ -13,11 +13,9 @@ class Question01Test {
 	void testPrintLadder() {
 		question = new Question01();
 		
-		String expectedOutput = "  *\n **\n***";
-		
-		String output = question.printLadder(3);
-		
-		assertEquals(expectedOutput, output);
+		assertEquals("*", question.printLadder(1));
+		assertEquals(" *\n**", question.printLadder(2));
+		assertEquals("  *\n **\n***", question.printLadder(3));
 	}
 
 }
