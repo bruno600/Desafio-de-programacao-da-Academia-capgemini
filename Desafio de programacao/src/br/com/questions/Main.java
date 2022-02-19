@@ -9,6 +9,9 @@ public class Main {
 		
 		System.out.println("Questao 2: ");
 		System.out.println(Question02.checkStringLength("Ya3"));
+
+		System.out.println("Questao 3: ");
+		System.out.println(Question03.findAnagram("ovo"));
 	}
 
 }
