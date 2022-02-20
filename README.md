@@ -19,3 +19,9 @@ Os testes unitários estão dentro do package br.com.questions.tests
 **Para executá-lo:**
 1. Abra uma class de testes.
 2. No Eclipse vá em Run > Run As > JUnit Test
+
+## Javadoc :page_facing_up:
+Localização da página Javadoc gerado pelo Eclipse:
+```
+/Desafio de programacao/doc/index.html
+```
